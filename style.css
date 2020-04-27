@@ -5,14 +5,26 @@ body{
 
 .icon{
   font-size: 35px;
-  padding: 10px;
+  padding: 30px;
+  color:white;
 }
 
 h1{
   font-family: 'Comic Neue', cursive;
-  color:#F9F4E1;
+  color:white;
+}
+
+h2{
+  font-family: 'Comic Neue', cursive;
+  color:#4A6E48;
 }
 
 #header-container{
   background-color: #4A6E48;
+}
+
+
+button{
+  background-color:#4A6E48;
+  margin-right:20px;
 }
