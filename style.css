@@ -1,0 +1,18 @@
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/fog-3622519_960_720.jpg");
+  background-size: cover;
+}
+
+.icon{
+  font-size: 35px;
+  padding: 10px;
+}
+
+h1{
+  font-family: 'Comic Neue', cursive;
+  color:#F9F4E1;
+}
+
+#header-container{
+  background-color: #4A6E48;
+}
