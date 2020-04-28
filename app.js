@@ -13,7 +13,7 @@ btnOne.addEventListener('click', function(){
   randomNumber = Math.floor(Math.random() * 3) + 1;
   if (randomNumber === 1){
     alert.className = 'alert-dark';
-    alert.innerHTML = 'It is a tie !'
+    alert.innerHTML = 'It\'s a tie !'
     computerChoiceImg.src = 'images/rock.png';
     computerChoiceImg.style = "height: 300px";
     setTimeout(function(){
@@ -47,8 +47,8 @@ btnOne.addEventListener('click', function(){
 btnTwo.addEventListener('click', function(){
   randomNumber = Math.floor(Math.random() * 3) + 1;
   if (randomNumber === 1){
-    alert.className = 'alert-danger';
-    alert.innerHTML = 'You lost !'
+    alert.className = 'alert-success';
+    alert.innerHTML = 'You won !'
     computerChoiceImg.src = 'images/rock.png';
     computerChoiceImg.style = "height: 300px";
     setTimeout(function(){
@@ -58,7 +58,7 @@ btnTwo.addEventListener('click', function(){
     }, 2000);
   } else if (randomNumber === 2){
     alert.className = 'alert-dark';
-    alert.innerHTML = 'It is a tie !'
+    alert.innerHTML = 'It\'s a tie !'
     computerChoiceImg.src = 'images/paper.png';
     computerChoiceImg.style = "height: 300px";
     setTimeout(function(){
@@ -103,7 +103,7 @@ btnThree.addEventListener('click', function(){
     }, 2000);
   } else if (randomNumber === 3){
     alert.className = 'alert-dark';
-    alert.innerHTML = 'It is a tie !'
+    alert.innerHTML = 'It\'s a tie !'
     computerChoiceImg.src = 'images/scissors.png';
     computerChoiceImg.style = "height: 300px";
     setTimeout(function(){
