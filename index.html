@@ -17,13 +17,15 @@
     <div class="container-fluid text-center text-white" id="header-container">
       <h1>Rock Paper Scissors </h1>
     </div>
-    <div class="container-lg mt-5 text-center">
-      <h2>Choose</h2>
-      <button type="button"><i class="far fa-hand-rock icon"></i></button>
-      <button type="button"><i class="far fa-paper-plane icon"></i></button>
-      <button type="button"><i class="far fa-hand-scissors icon"></i></button>
+    <div class="container-lg text-center">
+      <div class="mb-3" role="alert"></div>
+      <h2>You</h2>
+      <button type="button" id="btn1"><i class="far fa-hand-rock icon"></i></button>
+      <button type="button" id="btn2"><i class="far fa-paper-plane icon"></i></button>
+      <button type="button" id="btn3"><i class="far fa-hand-scissors icon"></i></button>
       <div>
-      <h2 class="mt-5">Computer Chose</h2>
+      <h2 class="mt-5" id="computerText">Computer</h2>
+      <img src="" class="img-fluid" id="computerChoiceImg">
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
