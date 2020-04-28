@@ -1,6 +1,8 @@
 body{
+  background-color: #F9F4E1;
   background-image: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/fog-3622519_960_720.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .icon{
@@ -28,3 +30,4 @@ button{
   background-color:#4A6E48;
   margin-right:20px;
 }
+
