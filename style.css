@@ -19,6 +19,7 @@ h1{
 h2{
   font-family: 'Comic Neue', cursive;
   color:#4A6E48;
+  font-size: 75px;
 }
 
 #header-container{
@@ -31,3 +32,7 @@ button{
   margin-right:20px;
 }
 
+#alert{
+  height:150px;
+  font-size: 100px;;
+}
