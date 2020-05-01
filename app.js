@@ -16,30 +16,48 @@ btnOne.addEventListener('click', function(){
     alert.innerHTML = 'It\'s a tie !'
     computerChoiceImg.src = 'images/rock.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   } else if (randomNumber === 2){
     alert.className = 'alert-danger';
     alert.innerHTML = 'You lost !'
     computerChoiceImg.src = 'images/paper.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   } else if (randomNumber === 3){
     alert.className = 'alert-success';
     alert.innerHTML = 'You won !'
     computerChoiceImg.src = 'images/scissors.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   }
 });
@@ -51,30 +69,48 @@ btnTwo.addEventListener('click', function(){
     alert.innerHTML = 'You won !'
     computerChoiceImg.src = 'images/rock.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   } else if (randomNumber === 2){
     alert.className = 'alert-dark';
     alert.innerHTML = 'It\'s a tie !'
     computerChoiceImg.src = 'images/paper.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   } else if (randomNumber === 3){
     alert.className = 'alert-danger';
     alert.innerHTML = 'You lost !'
     computerChoiceImg.src = 'images/scissors.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   }
 });
@@ -86,30 +122,48 @@ btnThree.addEventListener('click', function(){
     alert.innerHTML = 'You lost !'
     computerChoiceImg.src = 'images/rock.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   } else if (randomNumber === 2){
     alert.className = 'alert-success';
     alert.innerHTML = 'You won !'
     computerChoiceImg.src = 'images/paper.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   } else if (randomNumber === 3){
     alert.className = 'alert-dark';
     alert.innerHTML = 'It\'s a tie !'
     computerChoiceImg.src = 'images/scissors.png';
     computerChoiceImg.style = "height: 300px";
+    btnOne.disabled = true;
+    btnTwo.disabled = true;
+    btnThree.disabled = true;
     setTimeout(function(){
       computerChoiceImg.src = '';
       alert.className = '';
       alert.innerHTML = '';
+      btnOne.disabled = false;
+      btnTwo.disabled = false;
+      btnThree.disabled = false;
     }, 2000);
   }
 });
